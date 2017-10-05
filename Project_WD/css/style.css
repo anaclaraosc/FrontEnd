@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #212121;
+}
+
+h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.button {
+    text-decoration: none;
+    border: 2px solid #FFFAFA;
+    border-radius: 50px;
+    padding: 10px 95px;
+    color: #FFFAFA;
+}
+
+.button:hover {
+    transition: 0.5s;
+    border-color: #F1480F;
+    color: #F1480F;
+    font-size: 24px;
+}
+
+header {
+    background-image: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation ul {
+    width: 100%;
+}
+
+.navigation ul li {
+    width: 100%;
+    padding: 5px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navigation a:hover {
+    transition: 0.5s;
+    color: #F1480F;
+    font-size: 20px;
+}
+
+#blog {
+    padding: 165px 0;
+    text-align: center;
+    background-image: url('../img/blogBackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+#story {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(199, 99, 28, 0.17);
+    height: auto;
+}
+
+#story p {
+    margin: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#portfolio {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#portfolio img {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+#instagram {
+    padding: 165px 0;
+    text-align: center;
+    background-image: url('../img/instagramBackground.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(199, 99, 28, 0.17);
+}
+
+#contact img {
+    margin: 10px;
+    width: 50px;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    color: #808080;
+    background-color: rgba(199, 99, 28, 0.17);
+}
+
+@media screen and (min-width: 768px) {
+
+h1 {
+    font-size: 60px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#story div {
+    padding: 0 100px;
+}
+
+}
